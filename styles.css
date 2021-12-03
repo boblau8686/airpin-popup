@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#cast-btn {
+  width: 32px;
+  height: 29px;
+  cursor: pointer;
+}
+.start-cast {
+  background-image: url("./images/start_cast.ico");
+}
+.stop-cast {
+  background-image: url("./images/stop_cast.ico");
+}
+
+/* Add styles here to customize the appearance of your app */
